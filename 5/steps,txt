@@ -1,0 +1,7 @@
+mkdir node-server
+cd node-server
+
+npm init -y
+
+npm install express
+create server.js
