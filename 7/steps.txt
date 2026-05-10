@@ -7,5 +7,5 @@ npm install express socket . i o
  realtime-chat/
     public/
        index.html
-       server.js
+    server.js
     package.json
