@@ -8,3 +8,12 @@ run:
 mongod
 
 node app.js
+
+
+# Add a student
+curl -X POST http://localhost:3000/students \
+ -H "Content -Type: application/json" \
+ -d '{"name":"John","age":20,"course":"Node.js"}'
+
+ # Get all students
+ curl http://localhost:3000/students
