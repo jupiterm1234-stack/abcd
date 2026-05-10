@@ -1,0 +1,11 @@
+mkdir realtime - chat
+cd realtime - chat
+
+npm init -y
+npm install express socket . i o
+
+ realtime-chat/
+    public/
+       index.html
+       server.js
+    package.json
