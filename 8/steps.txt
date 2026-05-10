@@ -1,0 +1,11 @@
+npm init -y
+npm install express multer cors
+
+file-upload-api/
+  public/
+     index.html
+  app.js
+  package.json
+
+
+  node app.js
