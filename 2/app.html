@@ -1,0 +1,21 @@
+<div class="container">
+
+  <h1>Observable Data Fetching</h1>
+
+  @for(user of (users$ | async); track user.id) {
+
+    <div class="card">
+
+      <h2>{{ user.name }}</h2>
+
+      <p>ID: {{ user.id }}</p>
+
+      <p>Age: {{ user.age }}</p>
+
+      <p>Status: {{ user.status }}</p>
+
+    </div>
+
+  }
+
+</div>
