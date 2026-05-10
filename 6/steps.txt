@@ -1,0 +1,6 @@
+ mkdir db-demo
+ cd db-demo
+
+npm init -y
+npm install express mongoose
+
