@@ -1,0 +1,10 @@
+mkdir performance-optimization
+cd performance-optimization
+
+npm init -y
+npm install express compression
+
+
+node app.js
+
+node cluster.js
