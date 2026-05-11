@@ -1,0 +1,7 @@
+ng new lazy-demo1 --routing --style=css --no-standalone
+  cd lazy-demo
+
+ng generate module products --route products --module app-routing-module
+
+
+  ng serve --open
